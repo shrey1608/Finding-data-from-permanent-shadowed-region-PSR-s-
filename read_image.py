@@ -2,7 +2,7 @@ import pds4_tools
 from PIL import Image
 
 # Read the file
-struct_list = pds4_tools.read('local-path-to-extracted-file/data/calibrated/20220129/xml-file')
+struct_list = pds4_tools.read('local-path-to-extracted-file/data/calibrated/folder-number/xml-file')
 # Extract the image from the file
 im = struct_list[0].data
 # Slice part of the image array
