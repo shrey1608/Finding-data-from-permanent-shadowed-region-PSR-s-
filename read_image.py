@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import Lat_Long_mapping
 
 # Read the file
-struct_list = pds4_tools.read('E:/Open-Source/SLoP/data/data/calibrated/20220129/ch2_ohr_ncp_20220129T0150171705_d_img_d18.xml')
+struct_list = pds4_tools.read('local-path-to-extracted-file/data/calibrated/folder-number/xml-file')
 
 # Extract the image from the file
 im = struct_list[0].data

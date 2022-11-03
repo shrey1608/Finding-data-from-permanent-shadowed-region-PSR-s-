@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def plot_lat_long(xslice_start_idx, yslice_start_idx, xslice_end_idx, yslice_end_idx):
   # Read csv file at /geometry/calibrated/...
   # Opening the CSV file
-  with open('E:/Open-Source/SLoP/data/geometry/calibrated/20220129/ch2_ohr_ncp_20220129T0150171705_g_grd_d18.csv', mode ='r')as file:
+  with open('local-path-to-extracted-file/geometry/calibrated/folder-number/csv-file', mode ='r')as file:
     # reading the CSV file
     csvFile = csv.reader(file)
 
